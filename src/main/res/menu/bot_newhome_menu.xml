@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/home"
+            android:enabled="true"
+            android:title="Home" />
+        <item
+            android:id="@+id/newhome_home"
+            android:enabled="true"
+            android:title="StateWise Update" />
+        <item
+            android:id="@+id/newhome_custom"
+            android:enabled="true"
+            android:title="Self Assessment" />
+
+        <item
+            android:id="@+id/newhome_helpline"
+            android:enabled="true"
+            android:title="State Helpline No" />
+        <item
+            android:id="@+id/newhome_Media"
+            android:enabled="true"
+            android:title="Media" />
+
+        <item
+            android:id="@+id/newhome_Symptoms"
+            android:enabled="true"
+            android:title="Symptoms" />
+    </group>
+    <item android:title="About and Support">
+        <menu>
+            <item
+                android:id="@+id/nav_Support"
+                android:title="Support" />
+            <item
+                android:id="@+id/nav_about_us"
+                android:title="About Us" />
+        </menu>
+    </item>
+
+
+</menu>
